@@ -7,7 +7,8 @@ const server = require('http').Server(app);
 // Socket.io implementation
 const io = require('socket.io')(server);
 io.on('connection', (socket) => {
-    console.log('New user connected! ');
+    // this is read on any new socket connection
+    require('./sockets/chat.js')(io, socket);
 });
 
 // Express View Engine for Handlebars
