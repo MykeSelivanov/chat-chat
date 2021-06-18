@@ -8,9 +8,11 @@ const io = require('socket.io')(server);
 
 let onlineUsers = {};
 
+let channels = {'General': []};
+
 io.on('connection', (socket) => {
     // this is read on any new socket connection
-    require('./sockets/chat.js')(io, socket, onlineUsers);
+    require('./sockets/chat.js')(io, socket, onlineUsers, channels);
 });
 
 // Express View Engine for Handlebars
