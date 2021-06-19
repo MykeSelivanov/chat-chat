@@ -1,8 +1,8 @@
 *{
     font-family: helvetica;
 }
-
-.username-form{
+  
+.username-form {
     display: flex;
     width : 50%;
     margin-left: auto;
@@ -12,22 +12,20 @@
     justify-content: center;
     align-items: center;
 }
-
-#username-input{
+  
+#username-input {
     font-size: 20px;
     padding: 5px;
     margin-bottom: 5px;
     width : 100%;
 }
-
+  
 #create-user-btn{
     width : 45%;
     font-size: 20px;
     font-weight: bold;
     padding: 5px;
 }
-
-
 
 .channels {
     display: flex;
@@ -36,67 +34,67 @@
     margin-right: 15px;
     overflow-y: auto;
     width: 100%;
-}
-
-.new-channel-form {
+  }
+  
+  .new-channel-form {
     display: flex;
     margin-top: -10px;
     margin-bottom: 10px;
     margin-left: 8px;
     margin-right: 8px;
-}
-
-#new-channel-input {
+  }
+  
+  #new-channel-input {
     font-size: 14px;
     width: 70%;
-}
-
-#new-channel-btn {
+  }
+  
+  #new-channel-btn {
     font-size: 14px;
     width: 30%;
-}
-
-.channel {
+  }
+  
+  .channel {
     font-size: 18px;
     padding: 10px 0px;
     margin: 2px 0px;
     cursor: pointer;
-}
-
-.channel:hover {
+  }
+  
+  .channel:hover {
     color: grey;
-}
-
-.channel-current {
+  }
+  
+  .channel-current {
     font-weight: bold;
     font-size: 18px;
     padding: 10px 0px;
     margin: 2px 0px;
     background-color: #4f9689;
-}
-
-.brand {
+  }
+  
+  .brand {
     margin-left: 8px;
-}
-
-.channels-label {
+  }
+  
+  .channels-label {
     margin-left: 8px;
-}
-
-.chat-container {
+  }
+  
+  .chat-container {
     width: 80%;
     display: flex;
     flex-direction: column;
     background-color: white;
-}
-
-.chat-container-fluid {
+  }
+  
+  .chat-container-fluid {
     margin: 8px;
     display: flex;
     flex-direction: column;
- }
-
-.channels-and-users-online-container {
+  }
+  
+  .channels-and-users-online-container {
     width: 20%;
     margin-left: -8px;
     margin-top: -8px;
@@ -106,9 +104,9 @@
     height: 750px;
     background-color: #4d394b;
     color: white;
-}
-
-.users-online {
+  }
+  
+  .users-online {
     margin-left: 8px;
     display: flex;
     flex-direction: column;
@@ -116,61 +114,61 @@
     justify-content: flex-start;
     overflow-y: auto;
     flex: 4;
-}
-
-.user-online {
+  }
+  
+  .user-online {
     margin-bottom: 8px;
     font-size: 18px;
-}
-
-.text-chat-divide {
+  }
+  
+  .text-chat-divide {
     border: 0.5px solid green;
     margin-bottom: 10px;
-}
-
-.chat-box {
+  }
+  
+  .chat-box {
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-label {
+  }
+  
+  label {
     display: block;
-}
-
-#chat-input {
+  }
+  
+  #chat-input {
     width: 100%;
     display: inline;
-}
-
-#send-chat-btn {
+  }
+  
+  #send-chat-btn {
     width: 10%;
     display: inline;
-}
-
-.message-container {
+  }
+  
+  .message-container {
     display: flex;
     margin-bottom: 10px;
     padding-bottom: 10px;
     flex-direction: column;
-}
-
-.message {
+  }
+  
+  .message {
     margin-bottom: 5px;
-}
-
-.message-user {
+  }
+  
+  .message-user {
     display: inline;
     color: red;
     font-weight: bold;
-}
-
-.message-text {
+  }
+  
+  .message-text {
     display: inline;
-}
-
-.main-container {
+  }
+  
+  .main-container {
     display: none;
     flex-direction: row;
     width: 100%;
-}
+  }
