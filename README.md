@@ -15,5 +15,6 @@ To run on local -> clone the repo
 npm i 
 npm start
 
-Head to http://localhost:3000/
+Head to http://localhost:3030/
 ```
+Open multiple tabs of http://localhost:3030/ for multiple users (1 tab = 1 user)
